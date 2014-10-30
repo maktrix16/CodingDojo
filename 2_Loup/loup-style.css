@@ -1,0 +1,81 @@
+
+/*
+*{ border: 1px solid black;}
+*{border: 1px solid red;}
+*/
+body{
+	background-color: #EEEEEE;
+	font-size:15px;
+	font-family: "Times New Roman";
+}
+h1{
+	font-size:40px;
+	margin-top: 0px;
+}
+h2{
+	font-size:32px;
+	margin: 38px 0px 23px 0px;
+}
+.light-grey{
+	background-color: #DDDDDD;	
+}
+.dark-grey{
+	background-color: #A6A6A6;
+}
+#header, #left-box, #right-box, #footer{
+	border-radius: 25px;	
+}
+#header{
+	width: 865px;
+	height: 65px;
+	padding-left:10px;
+	padding-top: 15px;
+}
+#main-container{
+    width:900px;
+    margin-top:20px
+}
+#left-box{
+	padding-left: 15px;
+	width: 210px;
+	display: inline-block;
+	vertical-align:top;
+	height:350px
+}
+#right-box{
+	margin-left:20px;
+	margin-right:20px;
+	padding-left: 20px;
+	width: 605px;
+	height:490px;
+	display:inline-block
+}
+#footer{
+	padding-left:5px;
+	height:75px;
+	margin: 20px 0px 30px 0px;
+
+}
+#footer p {
+	padding-left:10px;
+	padding-top:20px;
+}
+#left-box ul {
+	padding-left:15px;
+	margin:0px;
+}
+#left-box ul li {
+	padding:0px 0px 2px 0px;
+}
+#right-box ul li {
+	margin: 0px 15px 20px 0px;
+}
+#left-box a{
+	text-decoration: none;
+}
+a:visited {
+    color: #8A0000;
+}
+#home-link{
+	margin:15px 0px 0px 0px;
+}

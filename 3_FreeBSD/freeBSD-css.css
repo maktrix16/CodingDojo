@@ -1,0 +1,154 @@
+/*
+*{border:1px solid blue;}
+*/
+.container{
+	font-family: Arial;
+	font-size: 10px;
+	width:970px;	
+}
+#logo-area{
+		display:inline-block;
+		margin:0px;
+		padding:0px;
+}
+#logo-area > img{
+	width:636px;
+	height:auto;
+	margin:0px;
+}
+#sign-in{
+	display:inline-block;
+	background-image: url(img/ThemeColor.png);
+	background-size:334px 85px;
+	width: 334px;
+	height:85px;
+	background-repeat: no-repeat;
+	margin-left: -3px;
+	vertical-align: top;
+}
+#head-link{
+	font-size:12px;
+	color:white;
+}
+#head-link a{
+	color:#f2bb3f;
+}
+#head-link p{
+	display:inline-block;
+}
+#head-link ul{
+	display:inline-block;
+	list-style:none;
+	margin-left:-38px
+}
+#head-link ul li{
+	display:inline-block;	
+}
+#head-link ul li:before{
+    border-left: thin solid white;
+	content: "";
+	padding-right:5px;
+}
+#search-fn{
+
+}
+input.search-box{
+	font-size:11px;
+}
+#search-box{
+
+}
+.search-button{
+	background-color:transparent;
+	color:white;
+	border-color:white;
+	height:20px;
+}
+#top-nav{
+	background-color:#e7e7e7;
+	margin-top:-2px;
+	border-bottom:#b0b0b0 solid 1px;
+	height:30px;
+	font-weight:bold;
+	font-size:12px;
+	color:#616264;
+}
+#top-nav p{
+	display:inline-block;
+	padding-left:26px;
+	margin-top:7px;
+}
+#top-nav ul{
+	margin:0px 0px 0px -30px;
+	display:inline-block;
+}
+#top-nav ul li{
+	display:inline-block;
+	padding-right:10px;
+}
+#top-nav ul li:before{
+    border-left: thin solid #a5a5a5;
+	content: "";
+	padding-right:13px;
+}
+#main{
+
+}
+#left-nav{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #eaeaea;
+	border: 1px solid #d6d6d6;
+	margin:25px 0px 0px 17px;
+	padding:0px 10px 10px 10px;
+	width:140px;	
+}
+a{
+	color:#960000;
+	font-size:12px;
+}
+#left-nav ul{
+	list-style:none;
+}
+#left-nav ul li{
+	padding:0px;
+	margin-left:-20px;
+	margin-bottom:6px;
+	text-indent:-14px;
+	font-family:Verdana;
+}
+#left-nav ul li:before{
+	content:"\00BB";
+	font-size:120%;
+	color: #960000;
+	padding-right:6px
+}
+#right-body{
+	display: inline-block;
+	width:623px;
+	margin-top:12px;
+	font-size:12px;
+	padding-top:3px;
+	padding-left:16px;
+	font-family:Verdana;
+}
+h1{
+	color: #960000;
+	font-size:16px;
+	font-family:Verdana;
+	margin-bottom:18px;
+}
+
+h2{
+	color: #960000;
+	font-size:12px;
+	font-family:Verdana;
+}
+.line-separator{
+	height:1px;
+	background: #717171;
+	border-bottom:1px solid #313030;
+}
+.make-bold{
+	font-weight: bold;
+}
