@@ -1,0 +1,155 @@
+*{border: solid 1px red;}
+
+/* Main Blocks */
+#container{
+	width:970px;
+}
+#header{
+
+}
+#logo{
+	display:inline-block;
+}
+#logo-text{
+	display:inline-block;	
+}
+#head-link{
+	display:inline-block;
+}
+#head-link-text{
+	display:inline-block;
+}
+#head-banner{
+	background-color:blue;
+	color: white;
+}
+#main{
+
+}
+#left-sidebar{
+	display: inline-block;
+	vertical-align: top;
+	width:300px;
+}
+#demo-promo{
+
+}
+#ruler-promo{
+	background-image: url("img/left_content_ad.png");
+	background-repeat: no-repeat;
+	background-size:10%;
+}
+#right-content{
+	display: inline-block;
+	width:600px;
+}
+#breadcrumbs-contact{
+
+}
+#contact{
+	display: inline-block;
+}
+#contact-main{
+	display: inline-block;
+}
+#content-1{
+
+}
+#content-1 ul{
+
+}
+#content-1 ul li{
+
+}
+#content-1 ul li:before{
+
+}
+#flag-promo{
+
+}
+#content-2{
+
+}
+
+/* Text and Fonts */
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+a{
+	
+}
+.make-bold{
+	font-weight: bold;
+}
+#logo-font1{
+	font-weight: bold;
+	font-size:20px;
+}
+#logo-font2{
+
+}
+#demo-head-font{
+
+}
+#demo-subhead-font{
+
+}
+#demo-highlight-font{
+
+}
+#demo-bottomtext{
+
+}
+#ruler-head-font{
+
+}
+#ruler-main-font{
+
+}
+#ruler-arrow1{
+	
+}
+#ruler-arrow2{
+	
+}
+#ruler-arrow3{
+	
+}
+.contact-font1{
+
+}
+#contact-font2{
+
+}
+#flag-main-font{
+
+}
+
+/* Buttons and Graphics*/
+#home-pic{
+	display: inline-block;
+}
+#phone-pic{
+	display: inline-block;
+}
+#head-login-button{
+	display:inline-block;
+}
+#demo-blue-button{
+
+}
+#demo-orange-button{
+
+}
+#ruler-button{
+
+}
+#flag-button{
+
+}
