@@ -38,8 +38,7 @@
 }
 nav{
 	background-image: linear-gradient(to bottom,#f2f5f6, #b7bdc4,#f2f5f6);
-	border:#878787 thin solid;
-	border-bottom:none;
+	border-top:#878787 thin solid;
 	margin:-2px 0 0 0; 
 	height:30px;
 }
@@ -54,9 +53,28 @@ nav ul li{
 	height:20px;
 	font-size:11px;
 	font-weight:bold;
-	color:#5b5b5b;
 	margin:0px 0px 0px 0px;
-	padding:10px 19px 0px 19px;
+	padding:10px 17px 0px 19px;
+}
+a{
+	text-decoration:none;	
+	color:#5b5b5b;
+
+}
+.down-arrow{
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid #e7e7e7;
+	margin:0px 0px 0px 6px;
+}
+nav ul li:nth-child(2){
+	margin-right:-13px;
+}
+nav ul li:nth-child(3){
+	margin-right:-13px;	
 }
 nav ul li:last-child{
 	border-right:2px solid #c5c5c5;
@@ -64,8 +82,8 @@ nav ul li:last-child{
 
 /* Main Section */
 .main{
-	height=580px;
-	width=1022px;
+	height:580px;
+	width:1022px;
 	background: black;
 	background-image: -webkit-radial-gradient(center center, circle farthest-side, #3c3c39 40%, black 100%); /* New WebKit syntax */
 	margin-top:30px;
@@ -76,7 +94,7 @@ nav ul li:last-child{
 
 }
 .about-us img{
-	border:solid 4px white;
+	border:solid 5px white;
 	display: inline-block;
 	vertical-align:top;
 	margin: 16px 0px 0px 38px;
@@ -112,7 +130,7 @@ h2{
 
 /* Small value proposition section */
 .value-prop{
-	margin-left:47px;
+	margin:6px 0px 0px 47px;
 }
 .value-prop img{
 	display:inline-block;
@@ -121,11 +139,50 @@ h2{
 	display:inline-block;
 	color:#929a51;
 	font-size:11px;
+	margin:2px 0px 0px 0px;
+	vertical-align:top;
 }
 
 /* Industrial categories */
 .category{
 
+}
+.cat-box{
+	background:white;
+	width:223px;
+	height:250px;
+	display:inline-block;
+	vertical-align:top;
+	margin:9px -23px 10px 38px;
+	
+}
+.cat-pic1{
+	width:223px;
+}
+.cat-pic2{
+	width:224px;
+}
+.cat-pic3{
+	width:223px;
+}
+.cat-pic4{
+	width:223px;	
+}
+.cat-box p{
+	margin:0px;
+	padding:7px 13px 0px 16px;
+	font-size:11px;
+	height:76px;
+}
+.CTA-button{
+	background-image:url("img/CTA-button.png");
+	background-color:transparent;
+	border:none;
+	background-repeat: no-repeat;
+	margin:0px 0px 0px 115px;
+	height:26px;
+	width:98px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .auto{
 	
