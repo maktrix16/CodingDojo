@@ -1,27 +1,77 @@
+/*
 *{border: solid 1px red;}
+*/
 
 /* Main Blocks */
 #container{
-	width:970px;
+	width:1000px;
+	font-family:arial;
+	font-size:12px;
+	margin:-8px 0px 0px -8px;
 }
 #header{
-
+	
 }
 #logo{
 	display:inline-block;
+	padding-top:23px;
+	height:81px;
+	margin:0px 190px 0px 10px;
 }
 #logo-text{
-	display:inline-block;	
+	display:inline-block;
+	font-size:36px;
+	font-weight:500;
+	letter-spacing:2px;
+	margin:0px;
+	padding-top:12px;
+	padding-left:5px;
+	vertical-align:top;
 }
 #head-link{
 	display:inline-block;
+	vertical-align:top;
+	margin-left:22px;
+	margin-top:-4px;
+}
+#head-link a{
+	text-decoration: none;
+	color:#8a8a8a;
 }
 #head-link-text{
+	display: inline-block;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border:1px solid #d3d3d3;
+	border-top:none;
+	margin-right:20px;
+	background:#f7f7f7;
+}
+#head-link-text ul{
 	display:inline-block;
+	vertical-align:top;
+	font-size:11px;
+	padding: 9px 0px 0px 17px;
+	margin:-5px 0px 0px 0px;
+	list-style:none;
+	height:23px;
+}
+#head-link-text ul li{
+	display:inline-block;
+	border-right:thin solid #7c7c7c;
+	padding-right:10px;
+	margin-right:7px;
+}
+#head-link-text ul li:last-child{
+	border-right:none;	
 }
 #head-banner{
-	background-color:blue;
 	color: white;
+	margin:0px;
+	height:42px;
+	padding: 14px 0px 0px 10px;
+	font-size:24px;
+ 	background-image: linear-gradient(to bottom, #2468ad, #3596f3, #2468ad);
 }
 #main{
 
@@ -29,43 +79,96 @@
 #left-sidebar{
 	display: inline-block;
 	vertical-align: top;
-	width:300px;
+	width:230px;
+	margin-right:44px;
 }
 #demo-promo{
-
+ margin-left:10px;
+ border-bottom:thin solid #b6b6b6;
 }
 #ruler-promo{
+	margin-top:20px;
+	margin-left:10px;
 	background-image: url("img/left_content_ad.png");
 	background-repeat: no-repeat;
-	background-size:10%;
+	background-size:90%;
+	height:250px;
 }
 #right-content{
 	display: inline-block;
-	width:600px;
+	width:700px;
+	line-height:150%;
 }
 #breadcrumbs-contact{
-
+	margin-top:16px;
+	border-bottom:thin solid #b6b6b6;
+}
+#breadcrumbs{
+	display:inline-block;
+	vertical-align:top;
+}
+#breadcrumbs img{
+	display:inline-block;
+	vertical-align:top;
+}
+#breadcrumbs a{
+	display:inline-block;
+	font-size:14px;
+	text-decoration:none;
+	padding:4px 10px 0px 0px;
+	color:#398fda;
 }
 #contact{
 	display: inline-block;
+	margin:0px 0px 0px 413px;
 }
 #contact-main{
 	display: inline-block;
+	font-size:11px;
+	color:#60655f;
+	margin-left:8px;
+}
+#content-main{
+	padding-right:25px;
 }
 #content-1{
 
 }
 #content-1 ul{
-
+    list-style-type: none;
+	margin-left:16px;
+	padding:0px;
 }
 #content-1 ul li{
-
+	text-indent:-10px;
+	margin:0 0 8px 0;
 }
 #content-1 ul li:before{
-
+	content:'\25A0';
+	font-size:10px;
+	color:#1e78c4;
+	position: relative;
+	max-width: 0px;
+    max-height: 0px;
+    left: -6px;
+    top: -3px;
 }
 #flag-promo{
-
+	border:solid 5px #78b6da;
+	width:642px;
+}
+#flag-pic{
+	display:inline-block;
+	vertical-align:top;
+}
+#flag-main{
+	margin-left:6px;
+	display:inline-block;
+	width:560px;
+	font-size:14px;
+}
+#flag-main h1{
+	margin:7px 0 0 0;
 }
 #content-2{
 
@@ -73,83 +176,173 @@
 
 /* Text and Fonts */
 h1{
-
+	font-size:19px;
+	color:#1e78c4;
 }
 h2{
-
-}
-h3{
-
+	font-size:14px;
+	color:#1e78c4;
 }
 a{
-	
+	color:#2282aa;
 }
 .make-bold{
 	font-weight: bold;
 }
 #logo-font1{
-	font-weight: bold;
-	font-size:20px;
+	color:#727274;
 }
 #logo-font2{
-
+	color:#2c739b;
 }
 #demo-head-font{
-
+	padding:47px 0px 0px 0px; 
+	font-size:18px;
+	color:#2882be;
 }
 #demo-subhead-font{
-
+	margin:-5px 0px 0px 0px;
+	color:red;
+	font-size:12px;
+	font-weight:bold;
 }
 #demo-highlight-font{
+	color:#2282aa;
+}
+#demo-main-font{
+	margin:1px 0px 0px 0px;
+	line-height:150%;
 
 }
 #demo-bottomtext{
-
+	margin-top:7px;
+	padding-left:35px;
 }
 #ruler-head-font{
-
+	color:#2882be;
+	padding:14px 23px 0px 14px;
+	margin-bottom:0px;
+	font-weight:600;
+	font-size:16px;
+	line-height:135%;
+	background: -webkit-linear-gradient(#3596f3,#1b4f9c);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #ruler-main-font{
+	margin:0px;
+	padding:8px 23px 10px 14px;
+	line-height:150%;
+	font-weight:bold;
+	color:#595959;
 
 }
 #ruler-arrow1{
-	
+	font-weight:bold;
+	color:#4c80af;
 }
 #ruler-arrow2{
-	
+	font-weight:bold;
+	color:#8cb2d6;
 }
 #ruler-arrow3{
-	
+	font-weight:bold;
 }
 .contact-font1{
-
+	margin:0px 0px 6px 0px;
 }
 #contact-font2{
-
+	margin:-3px 0px 0px 0px;
+	font-size:25px;
+	font-weight:bold;
+	color:#4ad2e7;
 }
 #flag-main-font{
-
+	margin:7px 0px 13px 0px;
+	padding-left:5px;
 }
 
 /* Buttons and Graphics*/
+#logo-pic{
+	display: inline-block;
+}
 #home-pic{
 	display: inline-block;
 }
 #phone-pic{
 	display: inline-block;
+	vertical-align:top;
 }
 #head-login-button{
+	border:none; 
+	border-radius: 3px;
+	font-size:12px;
+	text-decoration:none; 
 	display:inline-block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ 	background-color: #41aefa; 
+ 	background-image: linear-gradient(to bottom, #00baff, #2468ad);
+	height:25px;
+	width:63px;
+	font-weight:normal;
 }
 #demo-blue-button{
-
+	margin-top:23px;
+	border:none; 
+	border-radius: 5px;
+	font-size:14px;
+	text-decoration:none; 
+	display:block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #FFFFFF;
+ 	background-image: linear-gradient(to bottom, #00baff, #2166b3);
+	height:31px;
+	width:215px;
+	font-weight:bold;
 }
 #demo-orange-button{
-
+	border:none; 
+	border-radius: 5px;
+	font-size:14px;
+	text-decoration:none; 
+	display:block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #FFFFFF;
+ 	background-image: linear-gradient(to bottom, #ffa131, #ff382a);
+	height:31px;
+	width:215px;
+	font-weight:bold;
+	margin-top:5px;
 }
 #ruler-button{
-
+	margin:0px 0px 0px 14px;
+	border:none; 
+	border-radius: 3px;
+	font-size:12px;
+	text-decoration:none; 
+	display:block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #e6ffff;
+ 	background-image: linear-gradient(to bottom, #4479b3, #132e43);
+	height:22px;
+	width:170px;
+	font-weight:normal;
+	box-shadow: 3px 3px 5px #888888;
 }
 #flag-button{
+	margin:0px 0px 7px 14px;
+	border:2px solid #496b2b; 
+	border-radius: 6px;
+	font-size:14px;
+	text-decoration:none; 
+	display:block;
+	text-shadow:none;
+	color: #e6ffff;
+ 	background-image: linear-gradient(to bottom, #c0de00, #7c9f0c,#c0de00);
+	height:31px;
+	width:170px;
+	font-weight:normal;
+	box-shadow: none;
+	transform:scale(1,1.2);
 
 }
