@@ -1,15 +1,198 @@
+/*
 *{border:red solid 1px;}
+*/
+
+/* General or Overall */
+.bold{
+	font-weight:bold;
+}
+.container{
+	width:1022px;
+	font-family:arial;
+	margin:-8px 0 0 -8px;
+}
 
 /* Header */
 .header{
 
 }
-img.header{
-
+.bg-pic{
+	margin:0px;
+	padding:0px;
+	width:20px;
+	height:67px;
 }
-p.header{
-
+.logo{
+	display: inline-block;
+	margin:0 0 0 -4px;
+}
+.header p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 0px 0px -5px;
+	padding: 33px 34px 10px 313px;
+	font-weight: bold;
+	font-size:18px;
+	background-image: url("img/header-bg.png");
+	height:24px;
 }
 nav{
+	background-image: linear-gradient(to bottom,#f2f5f6, #b7bdc4,#f2f5f6);
+	border-top:#878787 thin solid;
+	margin:-2px 0 0 0; 
+	height:30px;
+}
+nav ul{
+	list-style: none;
+	margin:0;
+	padding:0 0 0 37px;
+}
+nav ul li{
+	display: inline-block;
+	border-left:2px solid #c5c5c5;
+	height:20px;
+	font-size:11px;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:10px 17px 0px 19px;
+}
+a{
+	text-decoration:none;	
+	color:#5b5b5b;
+
+}
+.down-arrow{
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid #e7e7e7;
+	margin:0px 0px 0px 6px;
+}
+nav ul li:nth-child(2){
+	margin-right:-13px;
+}
+nav ul li:nth-child(3){
+	margin-right:-13px;	
+}
+nav ul li:last-child{
+	border-right:2px solid #c5c5c5;
+}
+
+/* Main Section */
+.main{
+	height:580px;
+	width:1022px;
+	background: black;
+	background-image: -webkit-radial-gradient(center center, circle farthest-side, #3c3c39 40%, black 100%); /* New WebKit syntax */
+	margin-top:30px;
+}
+
+/* About PPC Lubricant section */
+.about-us{
+
+}
+.about-us img{
+	border:solid 5px white;
+	display: inline-block;
+	vertical-align:top;
+	margin: 16px 0px 0px 38px;
+}
+.right-content{
+	display: inline-block;
+	width:550px;
+	margin: 16px 0px 0px 12px;
+}
+h1{
+	background-image: linear-gradient(to bottom,#ffd332,#e1ab20,#ffd332);
+	font-size:12px;
+	margin:0px;
+	padding:7px 0px 6px 10px;
+}
+.transparent-layer{
+	background:rgb(0,0,0);	/* For other unsupported browsers */
+	background:rgba(255,255,255,.2); 
+	height:237px
+}
+h2{
+	color: #e7e7e7;
+	margin:0px;
+	padding:14px 0 0 20px;
+	font-size: 14px;
+	font-weight:bold;
+}
+.right-content p{
+	color: #e7e7e7;
+	padding:0 20px 0 20px;	
+	font-size:12px;
+}
+
+/* Small value proposition section */
+.value-prop{
+	margin:6px 0px 0px 47px;
+}
+.value-prop img{
+	display:inline-block;
+}
+.value-prop p{
+	display:inline-block;
+	color:#929a51;
+	font-size:11px;
+	margin:2px 0px 0px 0px;
+	vertical-align:top;
+}
+
+/* Industrial categories */
+.category{
+
+}
+.cat-box{
+	background:white;
+	width:223px;
+	height:250px;
+	display:inline-block;
+	vertical-align:top;
+	margin:9px -23px 10px 38px;
+	
+}
+.cat-pic1{
+	width:223px;
+}
+.cat-pic2{
+	width:224px;
+}
+.cat-pic3{
+	width:223px;
+}
+.cat-pic4{
+	width:223px;	
+}
+.cat-box p{
+	margin:0px;
+	padding:7px 13px 0px 16px;
+	font-size:11px;
+	height:76px;
+}
+.CTA-button{
+	background-image:url("img/CTA-button.png");
+	background-color:transparent;
+	border:none;
+	background-repeat: no-repeat;
+	margin:0px 0px 0px 115px;
+	height:26px;
+	width:98px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.auto{
+	
+}
+.commercial{
+
+}
+.industrial{
+
+}
+.diesel{
 
 }
