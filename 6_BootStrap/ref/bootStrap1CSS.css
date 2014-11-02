@@ -1,0 +1,22 @@
+*{border:red 1px solid;}
+#blue-box {
+	position:relative;
+	height:100px;
+	background-color: green;
+}
+#blue-box p{
+	position:absolute;
+	top:50%; 
+	margin-top:-10em 
+
+	color:blue;
+	text-align: middle;
+	vertical-align: middle;
+	margin:0px;
+	padding:0px;
+}
+
+
+/*modal
+carosal
+*/

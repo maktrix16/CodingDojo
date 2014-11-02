@@ -83,7 +83,7 @@ nav ul li:last-child{
 /* Main Section */
 .main{
 	height:580px;
-	width:1022px;
+	width:1222px;
 	background: black;
 	background-image: -webkit-radial-gradient(center center, circle farthest-side, #3c3c39 40%, black 100%); /* New WebKit syntax */
 	margin-top:30px;

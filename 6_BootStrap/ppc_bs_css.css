@@ -1,0 +1,222 @@
+/*
+*{border:red solid 1px;}
+*/
+
+/* General or Overall */
+
+
+/* Header */
+#header-container{
+	margin-left:-15px;
+	margin-right:-15px;
+	background-image: url("img/header-bg.png");
+	background-size:1%;
+}
+@media (max-width: 992px){
+	#header-container{
+		background-repeat:no-repeat;
+	}
+}
+#logo img{
+	margin-left: 20px;
+}
+#phone{
+	margin-top:21px;
+}
+#phone h4{
+	font-weight:bold;
+}
+
+/* Top Nav - Customize the nav-justified links to be fill the entire space of the .navbar */
+#nav-mod li a{
+	font-size:11px;
+	padding: 5px 0px;
+}
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  margin-top:3px;
+/*  border-radius: 5px;
+*/}
+.nav-justified > li > a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #f5f5f5), to(#e5e5e5));
+  background-image:         linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > li:first-child > a {
+/*  border-radius: 5px 5px 0 0;
+*/}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+/*  border-radius: 0 0 5px 5px;
+*/}
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+/*    border-radius: 5px 0 0 5px;
+*/  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+/*    border-radius: 0 5px 5px 0;
+*/  }
+}
+
+/* Main Content */
+#main{
+	width:1035px;
+	background: black;
+	background-image: -webkit-radial-gradient(center center, circle farthest-side, #3c3c39 40%, black 100%); /* New WebKit syntax */
+	margin:30px 0px 0px 0px;
+	padding-left:0px;
+	padding-bottom:10px;
+}
+#about-us img{
+	border:solid 5px white;
+	display: inline-block;
+	vertical-align:top;
+	margin: 16px 0px 0px 38px;
+}
+#right-content{
+	display: inline-block;
+	width:550px;
+	margin: 16px 0px 0px 12px;
+}
+@media (max-width: 992px){
+	#right-content{
+		margin-left:38px;
+	}
+}
+h1{
+	background-image: linear-gradient(to bottom,#ffd332,#e1ab20,#ffd332);
+	font-size:12px;
+	margin:0px;
+	padding:7px 0px 6px 10px;
+}
+.transparent-layer{
+	background:rgb(0,0,0);	/* For other unsupported browsers */
+	background:rgba(255,255,255,.2); 
+	height:237px
+}
+h2{
+	color: #e7e7e7;
+	margin:0px;
+	padding:14px 0 0 20px;
+	font-size: 14px;
+	font-weight:bold;
+}
+#right-content p{
+	color: #e7e7e7;
+	padding:0 20px 0 20px;	
+	font-size:12px;
+}
+
+/* Small value proposition section */
+#value-prop{
+	margin:6px 0px 0px 47px;
+}
+#value-prop img{
+	display:inline-block;
+}
+#value-prop p{
+	display:inline-block;
+	color:#929a51;
+	font-size:11px;
+	margin:2px 0px 0px 0px;
+	vertical-align:top;
+}
+
+/* Industrial categories */
+#category{
+	margin-top:8px;
+	margin-left:37px;
+	margin-right:48px
+}
+.cat-box{
+	background:white;
+	padding:0px;
+	border:black 1px solid;
+	padding-bottom:10px;
+}
+@media (max-width: 768px){
+	.cat-box{
+		width:55%;
+		margin-left:-20px;
+	}
+	.cat-box img{
+		width:100%;
+	}
+}
+.CTA-button{
+	background-image:url("img/CTA-button.png");
+	background-color:transparent;
+	border:none;
+	background-repeat: no-repeat;
+	margin:20px 0px 0px 115px;
+	height:26px;
+	width:98px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#diesel{
+	padding-bottom:12px;
+}
+#industrial{
+	padding-bottom:12px;
+}
+.cat-pic1{
+	width:99.7%;
+}
+.cat-pic2{
+	width:100.5%;
+}
+.cat-pic3{
+	width:99.9%;
+}
+.cat-pic4{
+	width:99.8%;	
+}
+.cat-box p{
+	margin:0px;
+	padding:7px 13px 0px 16px;
+	font-size:11px;
+	height:76px;
+}
+
+/* Extra Bootstrap Practice*/
+#extra-practice{
+	color:grey;
+	margin-left:38px;
+	margin-right:48px;
+}
+h3{
+	color:white;
+	margin-top:40px;
+	margin-bottom:0px;
+}
+#extra-practice h4{
+	color:white;
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+.practice-tables{
+	border: 1px solid white;
+}
+
